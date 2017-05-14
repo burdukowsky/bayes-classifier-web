@@ -1,0 +1,33 @@
+td {
+    padding: 0 !important;
+}
+
+.vertical-text-wrapper {
+    position: relative;
+}
+
+.vertical-text-wrapper > .vertical-text {
+    transform-origin: 0 50%;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+td input.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+#result_message_wrapper {
+    height: 70px;
+}
+
+#result_message_wrapper > #result_message {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
